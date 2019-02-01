@@ -1,0 +1,7 @@
+Unit=nnic-request.service
+
+[Unit]
+Description=Run nnic-request.service every 2 seconds
+
+[Timer]
+OnUnitInactiveSec=2s

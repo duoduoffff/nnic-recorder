@@ -1,0 +1,6 @@
+[Unit]
+Description=initiates the request module of the recorder.
+
+[Service]
+User=root
+ExecStart=/usr/bin/php /opt/nnic/request.php
